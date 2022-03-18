@@ -1,0 +1,33 @@
+#mewsMain {
+    overflow: hidden;
+    cursor: pointer;
+    .news_title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #000;
+        line-height: 1.4;
+        // hover
+        &:hover {
+            color: #151e99;
+        }
+    }
+    .news_text {
+        color: #000;
+        opacity: 0.6;
+        font-size: 0.8rem;
+    }
+    .time {
+        opacity: 0.7;
+        color: #000;
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    // card
+    .card {
+        border: 0;
+    }
+    .border_side {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+}

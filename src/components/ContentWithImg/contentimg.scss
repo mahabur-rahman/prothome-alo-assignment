@@ -1,0 +1,14 @@
+#mewsMain {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    .top_news_img {
+        width: 110px;
+        height: 80px;
+        margin-right: 0.5rem;
+    }
+    .news_title {
+        margin-top: 0.7rem;
+        font-size: 0.9rem !important;
+        font-weight: 600;
+    }
+}

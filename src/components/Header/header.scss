@@ -1,0 +1,12 @@
+#header {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    .logo_img {
+        text-align: center;
+        cursor: pointer;
+        img {
+            width: 260px;
+            height: 65px;
+        }
+    }
+}

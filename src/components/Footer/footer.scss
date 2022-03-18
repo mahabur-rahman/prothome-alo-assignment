@@ -1,0 +1,16 @@
+#footer {
+    overflow: hidden;
+    .footer_img {
+        img {
+            width: 85%;
+            height: 220px;
+            margin-top: 1.2rem;
+            margin-bottom: 0.1rem;
+        }
+    }
+    .copyright_text {
+        color: #000;
+        opacity: 0.5;
+        font-size: 0.8rem;
+    }
+}
