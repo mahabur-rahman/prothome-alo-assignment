@@ -15,12 +15,22 @@
         color: #000;
         opacity: 0.6;
         font-size: 0.8rem;
+        // hover
+        &:hover {
+            color: #000;
+            opacity: 0.5;
+        }
     }
     .time {
         opacity: 0.7;
         color: #000;
         font-size: 0.7rem;
         font-weight: 400;
+        // hover
+        &:hover {
+            color: #000;
+            opacity: 0.5;
+        }
     }
     // card
     .card {
