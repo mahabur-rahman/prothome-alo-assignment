@@ -47,3 +47,18 @@
         }
     }
 }
+
+// responsive part start
+@media (max-width: 1199px) {
+    .res_img {
+        width: 100%;
+    }
+    #rightSidebar .read_text .title_color {
+        margin-right: 0;
+    }
+    #rightSidebar .read_text .news_img {
+        margin-left: 0;
+        width: 70%;
+        height: auto;
+    }
+}

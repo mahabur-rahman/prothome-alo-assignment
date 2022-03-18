@@ -39,3 +39,16 @@
         border-left: 1px solid #ddd;
     }
 }
+
+// responsive part
+@media (max-width: 1199px) {
+    #leftSide .new_img {
+        margin-top: 1rem;
+    }
+    #leftSide .sub_text {
+        text-align: center;
+    }
+    #rightSidebar .nagad_img {
+        height: 330px;
+    }
+}

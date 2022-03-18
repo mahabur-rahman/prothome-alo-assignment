@@ -7,7 +7,7 @@ const ActressImg = ({ actressImg }) => {
   return (
     <>
       <Link to="/">
-        <Image src={actressImg} alt={"Top News"} fluid />
+        <Image src={actressImg} alt={"Top News"} className="res_img" fluid />
         <p
           style={{ fontSize: ".8rem", fontWeight: "600" }}
           className="mt-1 text-black"
