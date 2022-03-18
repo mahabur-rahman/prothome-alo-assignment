@@ -22,9 +22,9 @@ const NewsMain = () => {
         <Container>
           <Row>
             {newsData.data.slice(0, 3).map((news) => {
-              const { title, description, customTime } = news;
+              const { id, title, description, customTime } = news;
               return (
-                <Col xl={4}>
+                <Col xl={4} key={id}>
                   <Card className={news.border}>
                     <Card.Body>
                       <Card.Title className="news_title">{title}</Card.Title>

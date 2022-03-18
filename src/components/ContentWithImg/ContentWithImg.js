@@ -14,10 +14,17 @@ const ContentWithImg = () => {
         <Container>
           <Row>
             {newsData.data.slice(0, 6).map((news) => {
-              const { title, description, time, photo, border, customTime } =
-                news;
+              const {
+                id,
+                title,
+                description,
+                time,
+                photo,
+                border,
+                customTime,
+              } = news;
               return (
-                <Col xl={4}>
+                <Col xl={4} key={id}>
                   <div className={`d-flex ${border}`}>
                     <Image
                       variant="top"
